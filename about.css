@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.about-container {
+  width: 100%;
+  min-height: 100vh; /* Adjust as needed */
+  background-image: url('https://media.istockphoto.com/id/1369931137/photo/donate-icons-on-laptop.jpg?s=1024x1024&w=is&k=20&c=QA5KLMazQZOv5VCtSzvlQI50WpO_4OVkqLvg_-4tvgM='); /* Set path to your background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* Added to stack content vertically */
+  justify-content: flex-start; /* Align content to the top */
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20px; /* Add padding to the top */
+}
+
+.about-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

@@ -1,0 +1,73 @@
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="number"],
+  input[type="email"],
+  select,
+  input[type="date"],
+  textarea {
+    width: 20%; /* Adjusted width */
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  .form-container {
+    max-width: 350px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #2ab026; /* New background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .button {
+    background-color: black;
+    border: none;
+    color: rgb(244, 238, 243);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0;
+    cursor: pointer;
+  }
+  
+  
+  /* Optional: Style form on smaller screens */
+  @media screen and (max-width: 600px) {
+    .form-container {
+      padding: 4px;
+    }
+  
+    input[type="text"],
+    input[type="password"],
+    input[type="number"],
+    input[type="email"],
+    select,
+    input[type="date"],
+    textarea {
+      width: 100%; /* Full width on smaller screens */
+      padding: 7px;
+      margin: 6px 0;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  }
+  

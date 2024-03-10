@@ -1,0 +1,33 @@
+.container {
+    background-color: #f0f0f067; /* Background color of the container */
+    padding: 20px; /* Add some padding for spacing */
+  }
+table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: hsla(0, 0%, 100%, 0.451); /* Background color of the table */
+    border: 3px solid #dddddd65; /* Table border */
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); 
+  }
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #2f7198;
+    border-radius:8%;
+}
+  
+  th {
+    background-color: #2f7198;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f95e; /* Alternate row color */
+    
+  }
+  /* Hover effect */
+  tr:hover {
+    background-color: #90c4ce;
+  }
